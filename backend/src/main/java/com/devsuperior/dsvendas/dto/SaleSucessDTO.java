@@ -23,6 +23,18 @@ public class SaleSucessDTO implements Serializable {
 
 
 
+	public String getSellerName() {
+		return SellerName;
+	}
+
+
+
+	public void setSellerName(String sellerName) {
+		SellerName = sellerName;
+	}
+
+
+
 	public Long getVisited() {
 		return visited;
 	}
